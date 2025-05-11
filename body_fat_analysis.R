@@ -6,7 +6,7 @@ library(dplyr)
 library(tidyr)
 
 # Load data
-data <- read.csv("C:/Users/Maya/OneDrive/Documents/Uni/Y2 S3/Statistics/Assignment/bodyfat.csv")
+data <- read.csv("bodyfat.csv")
 
 # Selected two quantitative variables
 density <- data$Density
