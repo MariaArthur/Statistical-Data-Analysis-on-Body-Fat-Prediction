@@ -60,7 +60,7 @@ This project demonstrates my skills in **R programming**, **data wrangling**, **
 - **Libraries:**  
   - `ggplot2`  
   - `dplyr`  
-  - `stats`
+  - `tidyr`
 
 - **Data Source:**  
   [Body Fat Prediction Dataset – Kaggle](https://www.kaggle.com/datasets/fedesoriano/body-fat-prediction-dataset)
