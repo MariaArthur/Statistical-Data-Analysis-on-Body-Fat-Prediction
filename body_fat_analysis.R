@@ -78,7 +78,7 @@ cat("Proportion within 1 SD:", round(within1sd * 100, 2), "%\n")
 cat("Proportion within 2 SD:", round(within2sd * 100, 2), "%\n")
 cat("Proportion within 3 SD:", round(within3sd * 100, 2), "%\n")
 
-# QQ-plot using base R (ggplot2 equivalent is more complex)
+# QQ-plot 
 qqnorm(density, main = "QQ-Plot for Density")
 qqline(density, col = "blue")
 
@@ -87,7 +87,7 @@ shapiro.test(density)
 
 # Part C - Bivariate Analysis
 
-# Scatter plot with regression line using ggplot2
+# Scatter plot 
 ggplot(data, aes(x = BodyFat, y = Density)) +
   geom_point(color = "darkblue") +
   geom_smooth(method = "lm", color = "red", se = FALSE) +
