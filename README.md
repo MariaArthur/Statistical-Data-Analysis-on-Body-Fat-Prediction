@@ -64,3 +64,12 @@ I created the following plots:
 - `analysis.R`: R script containing all code for analysis.
 - `bodyfat.csv`: The dataset used for the analysis.
 - `plots/`: Folder containing the output plots (boxplots, histograms, scatter plots).
+
+---
+
+## ⚙️ **Installation**
+
+To replicate the analysis, clone this repository and install the required R packages by running the following:
+
+```R
+install.packages(c("ggplot2", "dplyr", "tidyr"))
