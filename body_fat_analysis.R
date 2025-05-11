@@ -57,13 +57,13 @@ ggplot(data, aes(y = BodyFat)) +
 
 # Histograms for Density
 ggplot(data, aes(x = Density)) +
-  geom_histogram(binwidth = 0.01, fill = "skyblue", color = "black") +
+  geom_histogram(binwidth = 0.005, fill = "skyblue", color = "black") +
   labs(title = "Histogram of Density", x = "Density", y = "Frequency") +
   theme_minimal()
 
 # Histograms for BodyFat
 ggplot(data, aes(x = BodyFat)) +
-  geom_histogram(binwidth = 1, fill = "salmon", color = "black") +
+  geom_histogram(binwidth = 2, fill = "salmon", color = "black") +
   labs(title = "Histogram of BodyFat", x = "BodyFat", y = "Frequency") +
   theme_minimal()
 
